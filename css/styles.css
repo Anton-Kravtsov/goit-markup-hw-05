@@ -139,6 +139,12 @@ button {
   flex-grow: 0;
   padding: 24px 0;
 }
+
+.link-item {
+  position: relative;
+  color: var(--pressed-state);
+}
+
 .link-item:hover,
 .link-item:focus {
   color: var(--pressed-state);

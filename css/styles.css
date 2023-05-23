@@ -102,6 +102,8 @@ button {
 }
 .div-header {
   display: flex;
+  height: 72px;
+  align-items: center;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -114,6 +116,7 @@ button {
   text-transform: uppercase;
   color: var(--primary-brand);
   margin-right: 76px;
+  margin-top: 15px;
 }
 
 .logo-color {

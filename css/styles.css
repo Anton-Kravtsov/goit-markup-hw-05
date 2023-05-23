@@ -121,6 +121,7 @@ button {
 }
 
 .menu {
+  position: relative;
   display: flex;
   gap: 40px;
 }

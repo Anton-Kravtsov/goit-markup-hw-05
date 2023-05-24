@@ -554,6 +554,9 @@ button {
   padding: 12px 24px;
   border: 1px solid var(--accent);
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-btn:hover,
@@ -574,6 +577,10 @@ button {
 
 .project-link {
   display: block;
+  width: 360px;
+  height: 420px;
+  left: 540px;
+  top: 292px;
 }
 
 .project-link:hover,
@@ -603,4 +610,14 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+/* overlay */
+
+.overlay {
+  background-color: var(--primary-brand);
+  color: var(--light);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }

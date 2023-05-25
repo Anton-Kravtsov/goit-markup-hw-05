@@ -636,7 +636,9 @@ button {
   overflow: hidden;
 }
 
-.project-li-wrapper:hover .overlay,
+.project-li-wrapper:hover .overlay {
+  transform: translateY(0%);
+}
 .project-li-wrapper:focus .overlay {
   transform: translateY(0%);
 }
